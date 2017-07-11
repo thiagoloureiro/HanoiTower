@@ -1,0 +1,4 @@
+C:\Users\Admin\Desktop\EI.DomainModel\EI.DomainModel\bin\Debug\EI.Hanoi.Model.dll
+C:\Users\Admin\Desktop\EI.DomainModel\EI.DomainModel\bin\Debug\EI.Hanoi.Model.pdb
+C:\Users\Admin\Desktop\EI.DomainModel\EI.DomainModel\obj\Debug\EI.Hanoi.Model.dll
+C:\Users\Admin\Desktop\EI.DomainModel\EI.DomainModel\obj\Debug\EI.Hanoi.Model.pdb

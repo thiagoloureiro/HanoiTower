@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EI.Hanoi.MVC", "EI.Hanoi.MVC\EI.Hanoi.MVC.csproj", "{3AB4FE51-CF7F-45D6-85FB-05455D62C27D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EI.Hanoi.UnitTest", "EI.Hanoi.UnitTest\EI.Hanoi.UnitTest.csproj", "{84C931EA-0D04-4B47-B655-EA68BCB6EA40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EI.Hanoi.Model", "EI.Hanoi.ModelModel\EI.Hanoi.Model.csproj", "{13C78527-4BD6-43F0-BB73-BE3C60965268}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EI.Hanoi.Contracts", "EI.Hanoi.Contracts\EI.Hanoi.Contracts.csproj", "{7A33805A-0DAC-43CF-B441-7785581678DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiceBus", "ServiceBus", "{18FF7CCD-F478-456C-8539-188D9F58625D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EI.Hanoi.Services", "EI.Hanoi.Services\EI.Hanoi.Services.csproj", "{64DC42BC-E995-4905-8B1E-0E4C8670918F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{620798D9-7855-4FAC-81A3-4DAA6A62CAB7}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\ReadMe.txt = Documentation\ReadMe.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AB4FE51-CF7F-45D6-85FB-05455D62C27D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AB4FE51-CF7F-45D6-85FB-05455D62C27D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AB4FE51-CF7F-45D6-85FB-05455D62C27D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AB4FE51-CF7F-45D6-85FB-05455D62C27D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84C931EA-0D04-4B47-B655-EA68BCB6EA40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84C931EA-0D04-4B47-B655-EA68BCB6EA40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84C931EA-0D04-4B47-B655-EA68BCB6EA40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84C931EA-0D04-4B47-B655-EA68BCB6EA40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13C78527-4BD6-43F0-BB73-BE3C60965268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13C78527-4BD6-43F0-BB73-BE3C60965268}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13C78527-4BD6-43F0-BB73-BE3C60965268}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13C78527-4BD6-43F0-BB73-BE3C60965268}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A33805A-0DAC-43CF-B441-7785581678DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A33805A-0DAC-43CF-B441-7785581678DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A33805A-0DAC-43CF-B441-7785581678DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A33805A-0DAC-43CF-B441-7785581678DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64DC42BC-E995-4905-8B1E-0E4C8670918F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64DC42BC-E995-4905-8B1E-0E4C8670918F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64DC42BC-E995-4905-8B1E-0E4C8670918F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64DC42BC-E995-4905-8B1E-0E4C8670918F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7A33805A-0DAC-43CF-B441-7785581678DA} = {18FF7CCD-F478-456C-8539-188D9F58625D}
+		{64DC42BC-E995-4905-8B1E-0E4C8670918F} = {18FF7CCD-F478-456C-8539-188D9F58625D}
+	EndGlobalSection
+EndGlobal
