@@ -2,3 +2,8 @@ C:\Users\Admin\Desktop\EI.DomainModel\EI.DomainModel\bin\Debug\EI.Hanoi.Model.dl
 C:\Users\Admin\Desktop\EI.DomainModel\EI.DomainModel\bin\Debug\EI.Hanoi.Model.pdb
 C:\Users\Admin\Desktop\EI.DomainModel\EI.DomainModel\obj\Debug\EI.Hanoi.Model.dll
 C:\Users\Admin\Desktop\EI.DomainModel\EI.DomainModel\obj\Debug\EI.Hanoi.Model.pdb
+C:\Projects\HanoiTower\EI.Hanoi.Model\bin\Debug\EI.Hanoi.Model.dll
+C:\Projects\HanoiTower\EI.Hanoi.Model\bin\Debug\EI.Hanoi.Model.pdb
+C:\Projects\HanoiTower\EI.Hanoi.Model\obj\Debug\EI.Hanoi.Model.csproj.CoreCompileInputs.cache
+C:\Projects\HanoiTower\EI.Hanoi.Model\obj\Debug\EI.Hanoi.Model.dll
+C:\Projects\HanoiTower\EI.Hanoi.Model\obj\Debug\EI.Hanoi.Model.pdb

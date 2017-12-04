@@ -1,13 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.7
+VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EI.Hanoi.MVC", "EI.Hanoi.MVC\EI.Hanoi.MVC.csproj", "{3AB4FE51-CF7F-45D6-85FB-05455D62C27D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EI.Hanoi.UnitTest", "EI.Hanoi.UnitTest\EI.Hanoi.UnitTest.csproj", "{84C931EA-0D04-4B47-B655-EA68BCB6EA40}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EI.Hanoi.Model", "EI.Hanoi.ModelModel\EI.Hanoi.Model.csproj", "{13C78527-4BD6-43F0-BB73-BE3C60965268}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EI.Hanoi.Model", "EI.Hanoi.Model\EI.Hanoi.Model.csproj", "{13C78527-4BD6-43F0-BB73-BE3C60965268}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EI.Hanoi.Contracts", "EI.Hanoi.Contracts\EI.Hanoi.Contracts.csproj", "{7A33805A-0DAC-43CF-B441-7785581678DA}"
 EndProject
@@ -20,20 +16,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentat
 		Documentation\ReadMe.txt = Documentation\ReadMe.txt
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EI.Hanoi.Site", "EI.Hanoi.Site\EI.Hanoi.Site.csproj", "{89E2115C-7AD3-486A-A432-7665AE273DCB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3AB4FE51-CF7F-45D6-85FB-05455D62C27D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3AB4FE51-CF7F-45D6-85FB-05455D62C27D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3AB4FE51-CF7F-45D6-85FB-05455D62C27D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3AB4FE51-CF7F-45D6-85FB-05455D62C27D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{84C931EA-0D04-4B47-B655-EA68BCB6EA40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{84C931EA-0D04-4B47-B655-EA68BCB6EA40}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{84C931EA-0D04-4B47-B655-EA68BCB6EA40}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{84C931EA-0D04-4B47-B655-EA68BCB6EA40}.Release|Any CPU.Build.0 = Release|Any CPU
 		{13C78527-4BD6-43F0-BB73-BE3C60965268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{13C78527-4BD6-43F0-BB73-BE3C60965268}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13C78527-4BD6-43F0-BB73-BE3C60965268}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -46,6 +36,10 @@ Global
 		{64DC42BC-E995-4905-8B1E-0E4C8670918F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64DC42BC-E995-4905-8B1E-0E4C8670918F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64DC42BC-E995-4905-8B1E-0E4C8670918F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89E2115C-7AD3-486A-A432-7665AE273DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89E2115C-7AD3-486A-A432-7665AE273DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89E2115C-7AD3-486A-A432-7665AE273DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89E2115C-7AD3-486A-A432-7665AE273DCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,5 +47,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{7A33805A-0DAC-43CF-B441-7785581678DA} = {18FF7CCD-F478-456C-8539-188D9F58625D}
 		{64DC42BC-E995-4905-8B1E-0E4C8670918F} = {18FF7CCD-F478-456C-8539-188D9F58625D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D9B3E02-8A49-4899-9B95-4B628091DCB2}
 	EndGlobalSection
 EndGlobal

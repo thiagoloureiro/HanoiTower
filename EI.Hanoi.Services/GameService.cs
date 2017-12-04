@@ -1,11 +1,7 @@
-﻿using System;
+﻿using EI.Hanoi.Contracts;
+using EI.Hanoi.Model;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using EI.Hanoi.Contracts;
-using EI.Hanoi.Model;
-using SlackBotMessages;
 
 namespace EI.Hanoi.Services
 {
@@ -33,7 +29,7 @@ namespace EI.Hanoi.Services
             games.Add(oGame);
 
             return oGame;
-        } 
+        }
 
         #endregion
     }
