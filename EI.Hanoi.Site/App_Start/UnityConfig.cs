@@ -12,7 +12,6 @@ namespace EI.Hanoi.Site
         {
             var container = new UnityContainer();
 
-            container.RegisterType<ISlack, SlackService>();
             container.RegisterType<IGame, GameService>();
 
             // Set the unity based on the MVC5 dependencies

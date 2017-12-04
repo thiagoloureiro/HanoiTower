@@ -14,17 +14,10 @@ namespace EI.Hanoi.Site.Controllers
 {
     public class GameAPIController : ApiController
     {
-        #region| Properties  |
-
-        private readonly ISlack _slackService;
-
-        #endregion
-
         #region| Constructor |
 
-        public GameAPIController(ISlack slackService)
+        public GameAPIController()
         {
-            _slackService = slackService;
         }
 
         #endregion
