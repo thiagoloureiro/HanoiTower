@@ -2,13 +2,13 @@
 using EI.Hanoi.Model;
 using EI.Hanoi.Services;
 using EI.Hanoi.Site.Extensions;
+using EI.Hanoi.Site.Hubs;
 using Microsoft.AspNet.SignalR;
 using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Http;
-using EI.Hanoi.Site.Hubs;
 
 namespace EI.Hanoi.Site.Controllers
 {
@@ -37,14 +37,11 @@ namespace EI.Hanoi.Site.Controllers
         {
             var gameServices = GetGameService();
 
-            var game = gameServices.StartNewGame();
+            var game = gameServices.StartNewGame(5);
 
             Task.Run(() => Start(game));
 
             gameServices.Save();
-
-            // Send Slack notification message
-            NotifySlack($"The game # { game.GameId.ToString() } has been started.");
 
             return new HttpResponseMessage(HttpStatusCode.Accepted);
         }
@@ -55,8 +52,6 @@ namespace EI.Hanoi.Site.Controllers
         {
             HttpContext.Current.Session.Remove("gameServices");
 
-            NotifySlack("All games data have been reseted");
-
             return new HttpResponseMessage(HttpStatusCode.Accepted);
         }
 
@@ -64,7 +59,7 @@ namespace EI.Hanoi.Site.Controllers
         {
             var gameServices = GetGameService();
 
-            var game = gameServices.StartNewGame();
+            var game = gameServices.StartNewGame(5);
 
             Start(game);
 
@@ -73,9 +68,7 @@ namespace EI.Hanoi.Site.Controllers
 
         private GameService GetGameService()
         {
-            var gameServices = HttpContext.Current.Session["gameServices"] as GameService;
-
-            if (gameServices == null)
+            if (!(HttpContext.Current.Session["gameServices"] is GameService gameServices))
             {
                 gameServices = new GameService();
             }
@@ -90,11 +83,6 @@ namespace EI.Hanoi.Site.Controllers
                 // Call the addNewMessageToPage method to update clients.
                 gameHub.Clients.All.addNewMessageToPage(GameId, from, to, disk);
             });
-        }
-
-        private void NotifySlack(string message)
-        {
-            _slackService.Send(message);
         }
     }
 }

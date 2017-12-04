@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 
 namespace EI.Hanoi.Model
 {
@@ -11,10 +7,16 @@ namespace EI.Hanoi.Model
     {
         #region| Properties |
 
-        public int GameId { get; set; }
-        int numberOfDisks;
+        private int numberOfDisks;
 
-        public int numdiscs 
+        public Game(int diskQuantity)
+        {
+            this.numdiscs = diskQuantity;
+        }
+
+        public int GameId { get; set; }
+
+        public int numdiscs
         {
             get
             {
@@ -29,13 +31,7 @@ namespace EI.Hanoi.Model
 
         #endregion
 
-        #region| Constructor | 
-
-        public Game(int diskQuantity)
-        {
-            this.numdiscs = diskQuantity;
-        }
-
+        #region| Constructor |
         #endregion
 
         #region| Methods |
@@ -46,7 +42,7 @@ namespace EI.Hanoi.Model
             {
                 callback(GameId, n - 1, from - 1, to - 1);
 
-                Thread.Sleep(1000);
+                Thread.Sleep(200);
             }
             else
             {

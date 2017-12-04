@@ -1,7 +1,6 @@
 ﻿using EI.Hanoi.Contracts;
 using EI.Hanoi.Model;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace EI.Hanoi.Services
 {
@@ -20,11 +19,9 @@ namespace EI.Hanoi.Services
             return new List<Game>();
         }
 
-        public Game StartNewGame()
+        public Game StartNewGame(int discs)
         {
-            var oGame = new Game(3);
-
-            oGame.GameId = games.Count();
+            var oGame = new Game(discs) { GameId = games.Count };
 
             games.Add(oGame);
 
