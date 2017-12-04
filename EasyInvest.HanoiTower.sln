@@ -11,11 +11,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServiceBus", "ServiceBus", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EI.Hanoi.Services", "EI.Hanoi.Services\EI.Hanoi.Services.csproj", "{64DC42BC-E995-4905-8B1E-0E4C8670918F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{620798D9-7855-4FAC-81A3-4DAA6A62CAB7}"
-	ProjectSection(SolutionItems) = preProject
-		Documentation\ReadMe.txt = Documentation\ReadMe.txt
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EI.Hanoi.Site", "EI.Hanoi.Site\EI.Hanoi.Site.csproj", "{89E2115C-7AD3-486A-A432-7665AE273DCB}"
 EndProject
 Global
