@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hanoi.Services", "EI.Hanoi.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hanoi.Site", "EI.Hanoi.Site\Hanoi.Site.csproj", "{89E2115C-7AD3-486A-A432-7665AE273DCB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hanois.UnitTest", "Hanois.UnitTest\Hanois.UnitTest.csproj", "{7EA346CF-697C-44C6-9451-8B73C38CE6CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{89E2115C-7AD3-486A-A432-7665AE273DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89E2115C-7AD3-486A-A432-7665AE273DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89E2115C-7AD3-486A-A432-7665AE273DCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EA346CF-697C-44C6-9451-8B73C38CE6CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EA346CF-697C-44C6-9451-8B73C38CE6CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EA346CF-697C-44C6-9451-8B73C38CE6CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EA346CF-697C-44C6-9451-8B73C38CE6CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
