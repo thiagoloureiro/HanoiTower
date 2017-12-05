@@ -126,12 +126,11 @@
                 </a>*@
             Clique em <b>Novo Jogo</b> para iniciar uma partida.<br />
             <div>
-                <input type="number" id="NumOfDisks" placeholder="Quantidade de discos" />
+                <input type="number" id="NumOfDisks" placeholder="Quantidade de discos" max="5" />
                 <button onclick="StartGame()">Start Game</button>
             </div>
             <div class="divider"></div>
 
-            <div class="divider"></div>
             <hr style="width:100%" />
             <div class="container">
                 <div class="alert alert-info" role="alert"> <strong>Histórico dos jogos:</strong>&nbsp;Abaixo estarão listados os movimentos realizados pelos jogos.</div>
@@ -150,9 +149,56 @@
             ResetGames(true);
         }
         );
+    this.Hidedivs = function () {
+        console.log(NumberOfDisks);
+        switch (NumberOfDisks) {
 
+            case "1":
+                $('.demo.hidden .tower')[0].getElementsByClassName('one')[0].style.display = 'block';
+                $('.demo.hidden .tower')[0].getElementsByClassName('two')[0].style.display = 'none';
+                $('.demo.hidden .tower')[0].getElementsByClassName('three')[0].style.display = 'none';
+                $('.demo.hidden .tower')[0].getElementsByClassName('four')[0].style.display = 'none';
+                $('.demo.hidden .tower')[0].getElementsByClassName('five')[0].style.display = 'none';
+                break;
+            case "2":
+                $('.demo.hidden .tower')[0].getElementsByClassName('one')[0].style.display = 'block';
+                $('.demo.hidden .tower')[0].getElementsByClassName('two')[0].style.display = 'block';
+                $('.demo.hidden .tower')[0].getElementsByClassName('three')[0].style.display = 'none';
+                $('.demo.hidden .tower')[0].getElementsByClassName('four')[0].style.display = 'none';
+                $('.demo.hidden .tower')[0].getElementsByClassName('five')[0].style.display = 'none';
+                break;
+            case "3":
+                $('.demo.hidden .tower')[0].getElementsByClassName('one')[0].style.display = 'block';
+                $('.demo.hidden .tower')[0].getElementsByClassName('two')[0].style.display = 'block';
+                $('.demo.hidden .tower')[0].getElementsByClassName('three')[0].style.display = 'block';
+                $('.demo.hidden .tower')[0].getElementsByClassName('four')[0].style.display = 'none';
+                $('.demo.hidden .tower')[0].getElementsByClassName('five')[0].style.display = 'none';
+                break;
+            case "4": 
+                $('.demo.hidden .tower')[0].getElementsByClassName('one')[0].style.display = 'block';
+                $('.demo.hidden .tower')[0].getElementsByClassName('two')[0].style.display = 'block';
+                $('.demo.hidden .tower')[0].getElementsByClassName('three')[0].style.display = 'block';
+                $('.demo.hidden .tower')[0].getElementsByClassName('four')[0].style.display = 'block';
+                $('.demo.hidden .tower')[0].getElementsByClassName('five')[0].style.display = 'none';
+                break
+            case "5":
+                $('.demo.hidden .tower')[0].getElementsByClassName('one')[0].style.display = 'block';
+                $('.demo.hidden .tower')[0].getElementsByClassName('two')[0].style.display = 'block';
+                $('.demo.hidden .tower')[0].getElementsByClassName('three')[0].style.display = 'block';
+                $('.demo.hidden .tower')[0].getElementsByClassName('four')[0].style.display = 'block';
+                $('.demo.hidden .tower')[0].getElementsByClassName('five')[0].style.display = 'block';
+                break;
+        }
+    }
     this.StartGame = function () {
         NumberOfDisks = $('#NumOfDisks').val();
+        if (NumberOfDisks > 5) {
+            alert('Maximo de 5 discos');
+            return;
+        }
+        else {
+            Hidedivs();
+        }
         $('.demo.hidden').eq(0).clone().removeClass("hidden").addClass("game").insertBefore('.divider');
 
         $.ajax
@@ -185,7 +231,6 @@
     this.Organize = function () {
         var totalheight = 170;
         var diskHeigth = 40;
-
         $('.tower').each
             (
             function (index) {
