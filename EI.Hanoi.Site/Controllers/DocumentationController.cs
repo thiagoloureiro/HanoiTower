@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace EI.Hanoi.Site.Controllers
+namespace Hanoi.Site.Controllers
 {
     public class DocumentationController : Controller
     {

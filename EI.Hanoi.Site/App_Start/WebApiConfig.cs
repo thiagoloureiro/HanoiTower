@@ -1,6 +1,6 @@
 ﻿using System.Web.Http;
 
-namespace EI.Hanoi.Site
+namespace Hanoi.Site
 {
     public static class WebApiConfig
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace EI.Hanoi.Model
+namespace Hanoi.Model
 {
     public class Game
     {

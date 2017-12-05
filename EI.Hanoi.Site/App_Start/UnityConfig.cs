@@ -1,10 +1,10 @@
-using EI.Hanoi.Contracts;
-using EI.Hanoi.Services;
+using Hanoi.Contracts;
+using Hanoi.Services;
 using System.Web.Http;
 using Unity;
 using Unity.AspNet.WebApi;
 
-namespace EI.Hanoi.Site
+namespace Hanoi.Site
 {
     public static class UnityConfig
     {

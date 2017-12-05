@@ -1,7 +1,7 @@
 ﻿using System.Web;
-using EI.Hanoi.Services;
+using Hanoi.Services;
 
-namespace EI.Hanoi.Site.Extensions
+namespace Hanoi.Site.Extensions
 {
     public static class Extensions
     {

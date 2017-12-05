@@ -1,7 +1,7 @@
-﻿using EI.Hanoi.Model;
+﻿using Hanoi.Model;
 using System.Collections.Generic;
 
-namespace EI.Hanoi.Contracts
+namespace Hanoi.Contracts
 {
     public interface IGame
     {

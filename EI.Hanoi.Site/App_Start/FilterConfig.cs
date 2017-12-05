@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace EI.Hanoi.Site
+namespace Hanoi.Site
 {
     public class FilterConfig
     {

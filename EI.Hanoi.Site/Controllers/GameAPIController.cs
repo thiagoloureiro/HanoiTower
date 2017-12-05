@@ -1,8 +1,8 @@
-﻿using EI.Hanoi.Contracts;
-using EI.Hanoi.Model;
-using EI.Hanoi.Services;
-using EI.Hanoi.Site.Extensions;
-using EI.Hanoi.Site.Hubs;
+﻿using Hanoi.Contracts;
+using Hanoi.Model;
+using Hanoi.Services;
+using Hanoi.Site.Extensions;
+using Hanoi.Site.Hubs;
 using Microsoft.AspNet.SignalR;
 using System.Net;
 using System.Net.Http;
@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using System.Web;
 using System.Web.Http;
 
-namespace EI.Hanoi.Site.Controllers
+namespace Hanoi.Site.Controllers
 {
     public class GameAPIController : ApiController
     {

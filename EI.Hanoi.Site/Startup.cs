@@ -1,6 +1,6 @@
 ﻿using Owin;
 
-namespace EI.Hanoi.Site
+namespace Hanoi.Site
 {
     public class Startup
     {

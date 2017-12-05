@@ -99,7 +99,6 @@
                     Iniciar Jogo
                 </a>
                 <a href="/documentation" class="list-group-item">API Documentation</a>
-                <a href="#" class="list-group-item">Game Log</a>
                 <a href="#" class="list-group-item" onclick="ResetGames();">Reset All games</a>
             </div>
         </div>
@@ -124,7 +123,7 @@
             @*<a href="#" class="list-group-item active" onclick="StartGame();">
                     Iniciar Jogo
                 </a>*@
-            Clique em <b>Novo Jogo</b> para iniciar uma partida.<br />
+            Informe um número até (5) e clique em <b>Start Game</b> para iniciar uma partida.<br />
             <div>
                 <input type="number" id="NumOfDisks" placeholder="Quantidade de discos" max="5" />
                 <button onclick="StartGame()">Start Game</button>
@@ -174,7 +173,7 @@
                 $('.demo.hidden .tower')[0].getElementsByClassName('four')[0].style.display = 'none';
                 $('.demo.hidden .tower')[0].getElementsByClassName('five')[0].style.display = 'none';
                 break;
-            case "4": 
+            case "4":
                 $('.demo.hidden .tower')[0].getElementsByClassName('one')[0].style.display = 'block';
                 $('.demo.hidden .tower')[0].getElementsByClassName('two')[0].style.display = 'block';
                 $('.demo.hidden .tower')[0].getElementsByClassName('three')[0].style.display = 'block';

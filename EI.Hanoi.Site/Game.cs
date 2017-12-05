@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace EI.Hanoi.Site
+namespace Hanoi.Site
 {
     public class TowerOfHanoi
     {

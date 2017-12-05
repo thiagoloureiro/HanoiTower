@@ -1,8 +1,8 @@
-﻿using EI.Hanoi.Contracts;
-using EI.Hanoi.Model;
+﻿using Hanoi.Contracts;
+using Hanoi.Model;
 using System.Collections.Generic;
 
-namespace EI.Hanoi.Services
+namespace Hanoi.Services
 {
     public class GameService : IGame
     {

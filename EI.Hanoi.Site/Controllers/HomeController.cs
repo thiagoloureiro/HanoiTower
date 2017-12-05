@@ -1,7 +1,7 @@
-﻿using EI.Hanoi.Contracts;
+﻿using Hanoi.Contracts;
 using System.Web.Mvc;
 
-namespace EI.Hanoi.Site.Controllers
+namespace Hanoi.Site.Controllers
 {
     public class HomeController : Controller
     {

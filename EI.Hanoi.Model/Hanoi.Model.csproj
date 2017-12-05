@@ -7,8 +7,8 @@
     <ProjectGuid>{13C78527-4BD6-43F0-BB73-BE3C60965268}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>EI.Hanoi.Model</RootNamespace>
-    <AssemblyName>EI.Hanoi.Model</AssemblyName>
+    <RootNamespace>Hanoi.Model</RootNamespace>
+    <AssemblyName>Hanoi.Model</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

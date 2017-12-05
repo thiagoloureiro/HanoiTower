@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace EI.Hanoi.Site
+namespace Hanoi.Site
 {
     public class RouteConfig
     {

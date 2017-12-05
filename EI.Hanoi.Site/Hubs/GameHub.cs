@@ -2,7 +2,7 @@
 using Microsoft.AspNet.SignalR.Hubs;
 using System.Threading.Tasks;
 
-namespace EI.Hanoi.Site.Hubs
+namespace Hanoi.Site.Hubs
 {
     [HubName("gameHub")]
     public class GameHub : Hub
