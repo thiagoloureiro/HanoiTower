@@ -284,17 +284,17 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\EI.Hanoi.Contracts\EI.Hanoi.Contracts.csproj">
+    <ProjectReference Include="..\EI.Hanoi.Contracts\Hanoi.Contracts.csproj">
       <Project>{7a33805a-0dac-43cf-b441-7785581678da}</Project>
-      <Name>EI.Hanoi.Contracts</Name>
+      <Name>Hanoi.Contracts</Name>
     </ProjectReference>
-    <ProjectReference Include="..\EI.Hanoi.Model\EI.Hanoi.Model.csproj">
+    <ProjectReference Include="..\EI.Hanoi.Model\Hanoi.Model.csproj">
       <Project>{13c78527-4bd6-43f0-bb73-be3c60965268}</Project>
-      <Name>EI.Hanoi.Model</Name>
+      <Name>Hanoi.Model</Name>
     </ProjectReference>
-    <ProjectReference Include="..\EI.Hanoi.Services\EI.Hanoi.Services.csproj">
+    <ProjectReference Include="..\EI.Hanoi.Services\Hanoi.Services.csproj">
       <Project>{64dc42bc-e995-4905-8b1e-0e4c8670918f}</Project>
-      <Name>EI.Hanoi.Services</Name>
+      <Name>Hanoi.Services</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

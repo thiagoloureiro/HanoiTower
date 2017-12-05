@@ -26,11 +26,11 @@ namespace EI.Hanoi.Site.Controllers
 
         [HttpGet]
         [Route("api/game")]
-        public HttpResponseMessage Start()
+        public HttpResponseMessage Start(int numOfDisks)
         {
             var gameServices = GetGameService();
 
-            var game = gameServices.StartNewGame(5);
+            var game = gameServices.StartNewGame(numOfDisks);
 
             Task.Run(() => Start(game));
 

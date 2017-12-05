@@ -7,3 +7,9 @@ C:\Projects\HanoiTower\EI.Hanoi.Model\bin\Debug\EI.Hanoi.Model.pdb
 C:\Projects\HanoiTower\EI.Hanoi.Model\obj\Debug\EI.Hanoi.Model.csproj.CoreCompileInputs.cache
 C:\Projects\HanoiTower\EI.Hanoi.Model\obj\Debug\EI.Hanoi.Model.dll
 C:\Projects\HanoiTower\EI.Hanoi.Model\obj\Debug\EI.Hanoi.Model.pdb
+D:\teste\HanoiTower\EI.Hanoi.Model\bin\Debug\EI.Hanoi.Model.dll
+D:\teste\HanoiTower\EI.Hanoi.Model\bin\Debug\EI.Hanoi.Model.pdb
+D:\teste\HanoiTower\EI.Hanoi.Model\obj\Debug\EI.Hanoi.Model.csprojResolveAssemblyReference.cache
+D:\teste\HanoiTower\EI.Hanoi.Model\obj\Debug\EI.Hanoi.Model.csproj.CoreCompileInputs.cache
+D:\teste\HanoiTower\EI.Hanoi.Model\obj\Debug\EI.Hanoi.Model.dll
+D:\teste\HanoiTower\EI.Hanoi.Model\obj\Debug\EI.Hanoi.Model.pdb
